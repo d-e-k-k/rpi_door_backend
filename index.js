@@ -14,9 +14,6 @@ app.use(userController);
 app.set("port", process.env.PORT || 4000);
 
 app.listen(app.get("port"), () => {
-    console.log('Server Running');
+    console.log(`✅ PORT: ${app.get('port')} 🌟`);
 })
 
-// app.listen(4000, () => {
-//   console.log(`Listening on port 4000`);
-// });
