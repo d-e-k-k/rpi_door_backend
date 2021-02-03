@@ -1,4 +1,12 @@
 # Rpi Door Backend
 ## **STILL IN DEVELOPMENT**
 
-## Original Flow Chart/ Wires
+## Dependencies
+- aws-sdk
+- cors
+- dotenv
+- express
+- mongoose
+- multer
+- uuid
+
